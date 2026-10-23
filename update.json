@@ -1,0 +1,10 @@
+{
+ "app": "PokeFlow",
+ "version": 146,
+ "zip": "PokeFlow_v30_UPDATE_146.zip",
+ "sha256": "c5218e0a1217f47aaff90e2ecf5ce866f1d124105de1f95845fac9ba5407488a",
+ "size": 34981,
+ "notes": "Auto-update test 🎉 If you read this in a pop-up, PokeFlow updated itself from GitHub!\n (Nothing else changed - the main menu now says v146.)",
+ "signed_at": "2026-10-23 23:11:52",
+ "signature": "b4be0cf1a8d0162f1f802420cf284607d499f2701e6b092b3329110758dba706c3a46008a2336bb8c0ca59275c0a7b4a1e0cd82450db8c0cc565baded41b8603"
+}
