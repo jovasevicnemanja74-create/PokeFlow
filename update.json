@@ -1,10 +1,10 @@
 {
  "app": "PokeFlow",
- "version": 146,
- "zip": "PokeFlow_v30_UPDATE_146.zip",
- "sha256": "c5218e0a1217f47aaff90e2ecf5ce866f1d124105de1f95845fac9ba5407488a",
- "size": 34981,
- "notes": "Auto-update test 🎉 If you read this in a pop-up, PokeFlow updated itself from GitHub!\n (Nothing else changed - the main menu now says v146.)",
- "signed_at": "2026-10-23 23:11:52",
- "signature": "b4be0cf1a8d0162f1f802420cf284607d499f2701e6b092b3329110758dba706c3a46008a2336bb8c0ca59275c0a7b4a1e0cd82450db8c0cc565baded41b8603"
+ "version": 148,
+ "zip": "PokeFlow_v30_UPDATE_148.zip",
+ "sha256": "57be2bb49e4850327235c8debe80b18cc37cbabfb13b1590458e55d9de66ca8d",
+ "size": 208831,
+ "notes": "Autowelcome faster on busy accounts (OnlyFans' 3-second rule still kept):\n - At least 3.2 s between ANY two sends - also after YOUR own messages (PokeFlow notices when you press Enter).\n - No more ~6 s waiting for \"Reply sent by\" + 1.5 s pause after each welcome: it is checked in the background\n   (up to 45 s) while the next sub is already being welcomed. 6 new subs: ~22 s instead of ~60 s.\n - Fix: when a card slides under the panel's top bar, the name could be read from the wrong place (\"Eric\" on Bob's\n   card, or \"4\" from the bell counter) - the name now comes from FansMetric's own order of the card.\n - RUN_NOTIF_PROBE.bat can now read what is under your MOUSE: for subs whose reply box you can see but PokeFlow\n   says \"can't quick-reply\" (point at the box while it reads).",
+ "signed_at": "2026-10-24 08:08:18",
+ "signature": "bc422219d12f9ae343801e64539f2c8b482c430abfecd283d89d4a5360a29018916b6f9532ecb9718b7c70fc13b4940534189f38db6d36c64648e79fc90b9c09"
 }
