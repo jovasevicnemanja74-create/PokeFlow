@@ -1,10 +1,10 @@
 {
  "app": "PokeFlow",
- "version": 154,
- "zip": "PokeFlow_v30_UPDATE_154.zip",
- "sha256": "846afb20ea3dddda679aede9abb8afb433effa3e7d0eff3ad841ae4291dafbe4",
- "size": 215356,
- "notes": "(includes 153) AI poke messages - tuned on the first real ones (all 30 written in 21 s on your card):\n - A message must END like a finished text ('?', '.', '..', '!' or an emoji) - cut-off ones like\n   \"...what's new with your week? curious\" are thrown away.\n - Style closer to yours: lowercase, '..' between thoughts, ending with '...', '?' or one emoji (😘 🥺 💕 😂), flirty-sweet.\n - No odd time phrases (\"so far this month\", \"this week\", day / month names).\n - A bit longer (at least 70% of your shortest built-in message), up to 3 tries per stage.\n - badges_debug.txt now lists EVERY AI message it kept, so they can be checked.",
- "signed_at": "2026-10-24 10:05:10",
- "signature": "714adce11db2b71f23825e3fbfa754886f9c29ffb98df95bf35d58a188bc6c53cbfc4b1c4b4de2f7dd896e679d2c87812732efa73342fde8f4d246345a06430e"
+ "version": 155,
+ "zip": "PokeFlow_v30_UPDATE_155.zip",
+ "sha256": "bdbe9d3ebc71c871126294f789ce51176d3f3932f694eafedd6226167622629a",
+ "size": 216012,
+ "notes": "- Autowelcome (AJScruff, brutal addiction): \"message did not go into his reply box\" although the welcome WAS in his box.\n   The box hands back special characters a bit differently (… / ’ / emoji markers). Now compared the way a person\n   reads it; if it really differs, the log says exactly where.\n - AI pokes: no made-up events (\"i saw you last week\", \"yesterday\", \"last night\") and no odd openers (\"you seem like\").",
+ "signed_at": "2026-10-24 10:19:33",
+ "signature": "69dfb9bd9a287acbaa8fcc74f076a97c831cc114eaa4fc21b528845e1eed364ed7b173aa1de824a342cbfcd65e198f90f146a5e617b3f4b2815ab1ef67d60c06"
 }
