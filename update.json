@@ -1,10 +1,10 @@
 {
  "app": "PokeFlow",
- "version": 155,
- "zip": "PokeFlow_v30_UPDATE_155.zip",
- "sha256": "bdbe9d3ebc71c871126294f789ce51176d3f3932f694eafedd6226167622629a",
- "size": 216012,
- "notes": "- Autowelcome (AJScruff, brutal addiction): \"message did not go into his reply box\" although the welcome WAS in his box.\n   The box hands back special characters a bit differently (… / ’ / emoji markers). Now compared the way a person\n   reads it; if it really differs, the log says exactly where.\n - AI pokes: no made-up events (\"i saw you last week\", \"yesterday\", \"last night\") and no odd openers (\"you seem like\").",
- "signed_at": "2026-10-24 10:19:33",
- "signature": "69dfb9bd9a287acbaa8fcc74f076a97c831cc114eaa4fc21b528845e1eed364ed7b173aa1de824a342cbfcd65e198f90f146a5e617b3f4b2815ab1ef67d60c06"
+ "version": 156,
+ "zip": "PokeFlow_v30_UPDATE_156.zip",
+ "sha256": "a4c33abf754fcef83fafba11a64c2f2a51b02bc4e6470bb2319962fe213e0811",
+ "size": 216650,
+ "notes": "- No more window freezes on the shortcuts: Ctrl+Q, Ctrl+S, Ctrl+E and Ctrl+T now do their work in the background,\n   so PokeFlow keeps drawing smoothly (it froze 0.5 s on every Ctrl+Q and up to 2.8 s on Ctrl+E during a 3-second block).\n   They still run one at a time, in the order you press them, and pressing again still cancels.\n - AI pokes look like the built-in ones: straight apostrophes and a lowercase \"i\" (\"i'm\", \"i'll\").",
+ "signed_at": "2026-10-24 10:46:45",
+ "signature": "b25e23812062a76483fe362efd84636aa30c3755ba477f30ce8dd5c1e0a129912e2bab6014b1ad2f5ddecf2fb52e93db46fd930929d36033be89516ef53f560e"
 }
