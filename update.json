@@ -1,10 +1,10 @@
 {
  "app": "PokeFlow",
- "version": 148,
- "zip": "PokeFlow_v30_UPDATE_148.zip",
- "sha256": "57be2bb49e4850327235c8debe80b18cc37cbabfb13b1590458e55d9de66ca8d",
- "size": 208831,
- "notes": "Autowelcome faster on busy accounts (OnlyFans' 3-second rule still kept):\n - At least 3.2 s between ANY two sends - also after YOUR own messages (PokeFlow notices when you press Enter).\n - No more ~6 s waiting for \"Reply sent by\" + 1.5 s pause after each welcome: it is checked in the background\n   (up to 45 s) while the next sub is already being welcomed. 6 new subs: ~22 s instead of ~60 s.\n - Fix: when a card slides under the panel's top bar, the name could be read from the wrong place (\"Eric\" on Bob's\n   card, or \"4\" from the bell counter) - the name now comes from FansMetric's own order of the card.\n - RUN_NOTIF_PROBE.bat can now read what is under your MOUSE: for subs whose reply box you can see but PokeFlow\n   says \"can't quick-reply\" (point at the box while it reads).",
- "signed_at": "2026-10-24 08:08:18",
- "signature": "bc422219d12f9ae343801e64539f2c8b482c430abfecd283d89d4a5360a29018916b6f9532ecb9718b7c70fc13b4940534189f38db6d36c64648e79fc90b9c09"
+ "version": 149,
+ "zip": "PokeFlow_v30_UPDATE_149.zip",
+ "sha256": "9bf53994c48ba2f7c3e3352c87d498ae48ef697c419cbf9794386566288cf790",
+ "size": 209165,
+ "notes": "Autowelcome fix (Billy, 08:23): FansMetric redrew his card the moment Send was pressed -> the press failed, his box\n looked empty, and PokeFlow counted him as welcomed although nothing was sent. Now: a failed Send is pressed once more\n on his fresh card; if it still fails he is NOT counted and is tried again on the next round.",
+ "signed_at": "2026-10-24 08:40:19",
+ "signature": "3b6d16f243aa77087e8c9f96c4433272035fafea5a29d2bd68e5defa248285e47505ad7791f8c7e52d63f7eafd0da043cbf1f597205a284ff5a8329db0133404"
 }
