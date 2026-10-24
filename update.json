@@ -1,10 +1,10 @@
 {
  "app": "PokeFlow",
- "version": 151,
- "zip": "PokeFlow_v30_UPDATE_151.zip",
- "sha256": "9f5853104417e3e449524099055dd9b9f831ae59554c4c5c9a2d9d4402590015",
- "size": 210235,
- "notes": "(includes 150) Autowelcome while you are busy typing (Sopro, 08:49):\n - It waited for a FULL second without typing before filling a box / pressing Send - while you upsell non-stop that\n   pause never came, so Sopro's welcome sat filled in his box. Now a 0.6 s pause is enough (your cursor is still put\n   back if FansMetric moves it). If it has to wait longer: log line + pop-up \"Welcome is waiting - pause typing\".\n - \"message did not go into his reply box\" (brutal addiction, 2x): the box was read back too early - now re-checked\n   for up to 1 s before calling it a failure.",
- "signed_at": "2026-10-24 08:56:35",
- "signature": "1d6e128831aed35aa8f58372181bbcbbce518e67da3ea462daa887d40196deefe51d85a88ec7ce6a9bc30313a6b1a0be3080e9434b684a6c0f3f231d7b432f07"
+ "version": 152,
+ "zip": "PokeFlow_v30_UPDATE_152.zip",
+ "sha256": "0a7a68ad952e9fd6a7409d0fb0099fcf0cd3ea2d44b53e754670fb673a89739d",
+ "size": 214473,
+ "notes": "Fresh AI poke messages every session:\n - 25 s after PokeFlow starts, the local AI writes 10 NEW messages for each poke stage (Poke 1, then 2, then 3) in\n   the background. Ctrl+Q / Ctrl+S use a stage's fresh messages as soon as that stage is ready; until then - and on\n   PCs without the AI or without a real graphics card - the 30 built-in messages are used (they never go away).\n - Every AI message is checked before use: right length for its stage, \"babe\" exactly once (his name goes there),\n   no money / other apps / meeting up / links, no FansMetric banned words, not a copy of another message.\n   Fewer than 5 good ones for a stage -> that stage keeps the built-in messages.\n - Skipped without a graphics card (8 GB GPU recommended): writing on the CPU would slow the PC down for minutes.\n - The local AI runs at lower priority while it writes. badges_debug.txt says how long each stage took.\n - The duplicate check works with the fresh messages too (never pastes one he already has).",
+ "signed_at": "2026-10-24 09:50:07",
+ "signature": "41b68c3068535e15ea5099273699b8e780ee7ef9638ebc6dba2a25fc4ac21258b59b2d66b977c5be31291e09847b338cdfcf746f63a74a02a7a42c47c74cf706"
 }
