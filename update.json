@@ -1,10 +1,10 @@
 {
  "app": "PokeFlow",
- "version": 152,
- "zip": "PokeFlow_v30_UPDATE_152.zip",
- "sha256": "0a7a68ad952e9fd6a7409d0fb0099fcf0cd3ea2d44b53e754670fb673a89739d",
- "size": 214473,
- "notes": "Fresh AI poke messages every session:\n - 25 s after PokeFlow starts, the local AI writes 10 NEW messages for each poke stage (Poke 1, then 2, then 3) in\n   the background. Ctrl+Q / Ctrl+S use a stage's fresh messages as soon as that stage is ready; until then - and on\n   PCs without the AI or without a real graphics card - the 30 built-in messages are used (they never go away).\n - Every AI message is checked before use: right length for its stage, \"babe\" exactly once (his name goes there),\n   no money / other apps / meeting up / links, no FansMetric banned words, not a copy of another message.\n   Fewer than 5 good ones for a stage -> that stage keeps the built-in messages.\n - Skipped without a graphics card (8 GB GPU recommended): writing on the CPU would slow the PC down for minutes.\n - The local AI runs at lower priority while it writes. badges_debug.txt says how long each stage took.\n - The duplicate check works with the fresh messages too (never pastes one he already has).",
- "signed_at": "2026-10-24 09:50:07",
- "signature": "41b68c3068535e15ea5099273699b8e780ee7ef9638ebc6dba2a25fc4ac21258b59b2d66b977c5be31291e09847b338cdfcf746f63a74a02a7a42c47c74cf706"
+ "version": 154,
+ "zip": "PokeFlow_v30_UPDATE_154.zip",
+ "sha256": "846afb20ea3dddda679aede9abb8afb433effa3e7d0eff3ad841ae4291dafbe4",
+ "size": 215356,
+ "notes": "(includes 153) AI poke messages - tuned on the first real ones (all 30 written in 21 s on your card):\n - A message must END like a finished text ('?', '.', '..', '!' or an emoji) - cut-off ones like\n   \"...what's new with your week? curious\" are thrown away.\n - Style closer to yours: lowercase, '..' between thoughts, ending with '...', '?' or one emoji (😘 🥺 💕 😂), flirty-sweet.\n - No odd time phrases (\"so far this month\", \"this week\", day / month names).\n - A bit longer (at least 70% of your shortest built-in message), up to 3 tries per stage.\n - badges_debug.txt now lists EVERY AI message it kept, so they can be checked.",
+ "signed_at": "2026-10-24 10:05:10",
+ "signature": "714adce11db2b71f23825e3fbfa754886f9c29ffb98df95bf35d58a188bc6c53cbfc4b1c4b4de2f7dd896e679d2c87812732efa73342fde8f4d246345a06430e"
 }
