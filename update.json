@@ -1,10 +1,10 @@
 {
  "app": "PokeFlow",
- "version": 156,
- "zip": "PokeFlow_v30_UPDATE_156.zip",
- "sha256": "a4c33abf754fcef83fafba11a64c2f2a51b02bc4e6470bb2319962fe213e0811",
- "size": 216650,
- "notes": "- No more window freezes on the shortcuts: Ctrl+Q, Ctrl+S, Ctrl+E and Ctrl+T now do their work in the background,\n   so PokeFlow keeps drawing smoothly (it froze 0.5 s on every Ctrl+Q and up to 2.8 s on Ctrl+E during a 3-second block).\n   They still run one at a time, in the order you press them, and pressing again still cancels.\n - AI pokes look like the built-in ones: straight apostrophes and a lowercase \"i\" (\"i'm\", \"i'll\").",
- "signed_at": "2026-10-24 10:46:45",
- "signature": "b25e23812062a76483fe362efd84636aa30c3755ba477f30ce8dd5c1e0a129912e2bab6014b1ad2f5ddecf2fb52e93db46fd930929d36033be89516ef53f560e"
+ "version": 157,
+ "zip": "PokeFlow_v30_UPDATE_157.zip",
+ "sha256": "6152d4fdb5164ac87f5e074f71924c6735d551ca7e9bb7b766db324262e44521",
+ "size": 217301,
+ "notes": "- LOADING.. no longer pops up when you hover a button that shows a grey tooltip, like \"More\" (the 3 dots) inside a chat.\n   It now checks what is under the mouse: a button is ignored, fan names work exactly as before (pokes 1-3 untouched).",
+ "signed_at": "2026-10-24 11:17:56",
+ "signature": "ad6d878bccdfd7ba3304fd465f94c9392ab03cac8dec93d4a0f30d71101df1340de98e1b663fa9bb1a3764f303f7a9aa88071bf07b079e3cf24cd3c8e23c2102"
 }
